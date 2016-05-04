@@ -1,0 +1,57 @@
+
+body {
+	text-align: center;
+    background-color: #9fbfdf;
+}
+
+head {
+	text-align: center;
+}
+
+.hr1 { 
+    color: black;
+    background-color: black;
+    height: 5px;
+}
+
+.hr2 { 
+    color: black;
+    background-color: black;
+    height: 1px;
+    width: 75%;
+}
+
+li:before {
+  content: " | ";
+}
+
+li:first-child:before {
+  content: "";
+}
+
+.p {
+    font-size: 130%;
+}
+
+.menu ul {
+    margin: 0; padding: 0;
+    float: center;
+    font-size: 130%;
+}
+
+.menu ul li {
+    display: inline;
+ }
+
+ .footer ul {
+ 	float: center;
+ 	font-size: 130%;
+ }
+
+ .footer ul li {
+	display: inline;
+ }
+
+
+
+
